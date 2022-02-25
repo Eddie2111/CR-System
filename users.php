@@ -1,8 +1,10 @@
 <?php
 	session_start();
   require_once('dbconnect.php');
+
 	$user = null;
 	$type = null;
+
 	if (isset($_SESSION['user'])) {
 		$user=$_SESSION['user'];
 		$type=$_SESSION['type'];
