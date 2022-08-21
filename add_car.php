@@ -2,8 +2,8 @@
 	session_start();
 
   require_once('dbconnect.php');
-	$user = null;
-	$type = null;
+	//$user = null;
+	//$type = null;
 	if (isset($_SESSION['user'])) {
 		$user=$_SESSION['user'];
 		$type=$_SESSION['type'];
@@ -144,7 +144,8 @@
 	</div>
 </section>
 
-<section class="ad-post bg-gray py-5">
+
+
     <div class="container">
         <form action="add_car_controller.php" method="post" enctype="multipart/form-data">
             <!-- Post Your ad start -->
@@ -203,7 +204,8 @@
             <button type="submit" name="upload" value="Submit" class="btn btn-primary d-block mt-2">Post Your Ad</button>
         </form>
     </div>
-</section>
+
+
 <!--============================
 =            Footer            =
 =============================-->
@@ -290,8 +292,7 @@
 <script src="plugins/fancybox/jquery.fancybox.pack.js"></script>
 <script src="plugins/smoothscroll/SmoothScroll.min.js"></script>
 <!-- google map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
-<script src="plugins/google-map/gmap.js"></script>
+
 <script src="js/script.js"></script>
 
 </body>

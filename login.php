@@ -81,9 +81,9 @@
             <div class="col-lg-5 col-md-8 align-item-center">
                 <div class="border">
                     <h3 class="bg-gray p-4">Login Now</h3>
-                    <form action="login_controller.php" target="_blank" method="post">
+                    <form action="login_controller.php" method="post">
                         <fieldset class="p-4">
-                            <input type="text" placeholder="Username" name="name" required class="border p-3 w-100 my-2">
+                            <input type="text" placeholder="Full Name" name="name" required class="border p-3 w-100 my-2">
                             <input type="password" placeholder="Password" name="password" required class="border p-3 w-100 my-2">
                             <button type="submit" class="d-block py-3 px-5 bg-primary text-white border-0 rounded font-weight-bold mt-3">Log in</button>
                             <a class="mt-3 d-inline-block text-primary" href="registration.php">Register Now</a>

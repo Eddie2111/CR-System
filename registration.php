@@ -70,7 +70,7 @@
                 <div class="col-lg-5 col-md-8 align-item-center">
                     <div class="border border">
                         <h3 class="bg-gray p-4">Register Now</h3>
-                        <form action="registration_controller.php" target="_blank" method="post">
+                        <form action="registration_controller.php" method="post">
                             <fieldset class="p-4">
                                 <input type="text" placeholder="Name*" name="name" required class="border p-3 w-100 my-2">
                                 <input type="text" placeholder="Phone*" name="phone" required class="border p-3 w-100 my-2">

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 07, 2022 at 07:33 AM
+-- Generation Time: Aug 21, 2022 at 08:20 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.31
 
@@ -67,7 +67,8 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`nid`, `name`, `phone`, `email`, `gender`, `license_number`, `billing_address`, `password`) VALUES
-(5465668, 'Mohammad Siam', '01754626262', 'mohammadsiam205@gmail.com', 'Male', '1215485', 'basabo', '123456');
+(5465668, 'Mohammad Siam', '01754626262', 'mohammadsiam205@gmail.com', 'Male', '1215485', 'basabo', '123456'),
+(12345687, 'test name', '01754578260', 'test.deploy@online.com', 'male', '1234567', 'abc/123', 'abc123');
 
 -- --------------------------------------------------------
 
@@ -87,7 +88,7 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`id`, `name`, `email`, `password`) VALUES
-(1, 'siam', 'siam@gmail.com', '123456');
+(1, 'admin', 'admin@crs.com', 'admin123');
 
 -- --------------------------------------------------------
 
@@ -201,7 +202,7 @@ ALTER TABLE `vehicle`
 -- AUTO_INCREMENT for table `complain`
 --
 ALTER TABLE `complain`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
